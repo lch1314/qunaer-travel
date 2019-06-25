@@ -11,10 +11,15 @@ import 'styles/reset.css'
 import 'styles/border.css'
 // 引入字体图标
 import 'styles/iconfont.css'
+// 引入轮播图插件
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+// require styles
+import 'swiper/dist/css/swiper.css'
 
 Vue.config.productionTip = false
 // 绑定到body上
 fastClick.attach(document.body)
+Vue.use(VueAwesomeSwiper)
 
 /* eslint-disable no-new */
 new Vue({
