@@ -1,5 +1,5 @@
 <template>
-    <div class="header">
+    <div class="header border-bottom">
         城市选择
         <router-link to="/">
             <div class="iconfont header-back">&#xe682;</div>
