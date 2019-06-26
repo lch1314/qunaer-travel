@@ -29,7 +29,7 @@ export default {
             width: .64rem
             text-align: center
             font-size: .4rem
-            position: absolute 
+            position: absolute
             top: 0
             left: 0
             color: #fff
